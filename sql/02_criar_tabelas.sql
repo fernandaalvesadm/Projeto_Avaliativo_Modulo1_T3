@@ -5,9 +5,12 @@
 -- Execute este script já conectado ao banco "projeto_supermarket_sales".
 --
 -- Estrutura seguindo a Arquitetura Medallion:
---   bronze  -> Camada Raw    (cópia fiel do CSV original)
---   silver  -> Camada Tratada (dados limpos, tipados, colunas derivadas)
+--   bronze  -> Camada Raw (cópia fiel do CSV original)
+--   silver  -> Camada Tratada (dados limpos, tipados e validados)
 --   gold    -> Indicadores de negócio já agregados (perguntas da atividade)
+--
+-- O CSV tratado também inclui dia_semana, mes e periodo_dia.
+-- Essas três colunas derivadas não são gravadas na tabela Silver.
 -- =============================================================================
 
 CREATE SCHEMA IF NOT EXISTS bronze;
