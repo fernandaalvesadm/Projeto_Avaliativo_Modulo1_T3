@@ -1,0 +1,21 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Credenciais
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados grandes (opcional — decida se versiona o raw ou não)
+# data/raw/*.csv
+
+# SO / editor
+.DS_Store
+.vscode/
