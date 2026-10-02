@@ -34,7 +34,7 @@ CREATE TABLE bronze.raw_vendas (
     sale_time                    VARCHAR(20),
     payment                       VARCHAR(50),
     cogs                          NUMERIC(12,4),
-    gross_margin_percentage       NUMERIC(10,6),
+    gross_margin_percentage       NUMERIC(12,9),
     gross_income                  NUMERIC(12,4),
     rating                        NUMERIC(4,2),
     CONSTRAINT pk_raw_vendas PRIMARY KEY (invoice_id)
