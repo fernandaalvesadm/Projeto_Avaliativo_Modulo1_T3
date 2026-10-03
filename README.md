@@ -1,8 +1,8 @@
 # Análise de dados com Python e SQL — Supermarket Sales
 
-Este projeto reúne a leitura, o tratamento e a análise de uma base de vendas de supermercado, buscando responder perguntas sobre filiais, produtos e formas de pagamento.
+EEste projeto reúne a leitura, o tratamento e a análise de uma base de vendas de supermercado, buscando responder perguntas sobre filiais, produtos e formas de pagamento.
 
-Utilizei uma base de vendas de supermercado para praticar a leitura de arquivos, as consultas SQL, o tratamento com Pandas e a análise dos resultados. A ideia foi acompanhar os dados desde o CSV original até as respostas e os gráficos.
+Utilizei essa base para praticar a leitura de arquivos, as consultas SQL, o tratamento com Pandas e a análise dos resultados. A ideia foi acompanhar os dados desde o CSV original até as respostas e os gráficos.
 
 ## Objetivo
 
